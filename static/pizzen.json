@@ -1,0 +1,12 @@
+[
+    {
+      "name": "Margherita",
+      "description": "Pomodoro, mozzarella, basilico",
+      "price": 7.5
+    },
+    {
+      "name": "Diavola",
+      "description": "Pomodoro, mozzarella, salame piccante",
+      "price": 8.5
+    }
+  ]
