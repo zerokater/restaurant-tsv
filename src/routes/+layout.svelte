@@ -26,7 +26,13 @@
         list-style: none;
     }
 
+
+    :global(html){
+        scroll-behavior: smooth;
+    }
+
     :global(h1){
+        line-height: 130%;
         font-size: 64px;
     }
 
