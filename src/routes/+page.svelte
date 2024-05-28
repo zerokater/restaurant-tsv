@@ -1,80 +1,27 @@
 <script>
-  let pizzaOpen = false;
-
-  import { slide } from "svelte/transition";
-  function togglePizza(){
-    pizzaOpen = !pizzaOpen;
-  }
+  import Section from "../components/Section.svelte";
 </script>
 
+
 <main>
-  <div class="pizza" >
-    <div class="container-pizza">
-      <h1>Pizzen</h1>
-      <img src="/images/drop-down.svg" alt="" on:click={togglePizza}>
-    </div>
-    
-      {#if pizzaOpen}
-      <div class="pizzen" transition:slide>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-        <p>margherita</p>
-      </div>
-    {/if}
-
-  </div>
-
-  <h1>Pasta</h1>
-  <h1>Salate</h1>
+  <Section>
+    <h1>Schmecke die beste<br>Pizza und Pasta der Stadt</h1>
+    <h6>Authentische Rezepte, frische Zutaten, unvergleichlicher Geschmack</h6>
+    <a href="/">Menü ansehen</a>
+  </Section>
 </main>
-  
-
 
 
 <style>
-
-
   main{
-      padding: 1rem 0rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-  .pizza{
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 1rem;
-  }
-
-  .container-pizza{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border: 1pt solid black;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+
+
+    background-image: url("images/background-image.jpg");
   }
-
-  .container-pizza img{
-    width: 48px;
-
-  }
-
-  .pizzen{
-    border: 1pt solid black;
-    padding: 1rem;
-  }
-
-
-
 </style>

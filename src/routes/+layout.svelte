@@ -2,11 +2,10 @@
 
 
 <script>
-    import Menu from "../components/Menu.svelte";
+
 </script>
 
 
-<Menu/>
 
 <slot/>
 
@@ -27,14 +26,12 @@
         list-style: none;
     }
 
-    :global(body){
-        width: 1400px;
-        margin: auto;
+    :global(h1){
+        font-size: 64px;
     }
 
-    @media only screen and (max-width: 1460px) {
-    :global(body) {
-        width: 95%;
-    }
+    :global(h6){
+        font-size: 32px;
+        font-weight: 400;
     }
 </style>
