@@ -29,7 +29,7 @@
     height: 100vh;
     background-color: bisque;
     
-    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,0)), url("../images/background-image.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,0)), url("images/background-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,10 +41,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .menu img{
-    height: 100%;
   }
 
 
