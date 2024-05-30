@@ -36,11 +36,11 @@
   }
 
   .menu{
-    padding: 2rem;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
 
 
@@ -48,4 +48,12 @@
     color: white;
   }
 
+
+
+  @media screen and (max-width: 500px) {
+  .headline {
+    align-items: flex-end;
+    padding: 6rem 0rem;
+  }
+  }
 </style>

@@ -33,11 +33,14 @@
 
     :global(h1){
         line-height: 130%;
-        font-size: 64px;
+        font-size: clamp(1.5rem, 2vw + 1rem, 4rem);
     }
 
     :global(h6){
-        font-size: 32px;
+        font-size: clamp(1rem, 1.5vw + 0.5rem, 2rem);
         font-weight: 400;
     }
+
+
+
 </style>
