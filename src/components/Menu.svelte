@@ -5,12 +5,13 @@
 
             flex-wrap: wrap;
             justify-content: space-around;
-            margin: 11px 0;
+            margin: 10px 0;
+            gap: 16px;
+            
         }
         .menu-section {
           
             flex: 1 1 300px;
-            margin: 10px 0;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 8px;

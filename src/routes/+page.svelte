@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding: 20px 0px;
   }
 
 
@@ -53,7 +54,7 @@
   @media screen and (max-width: 500px) {
   .headline {
     align-items: flex-end;
-    padding: 6rem 0rem;
+    padding: 12rem 0rem;
   }
   }
 </style>
