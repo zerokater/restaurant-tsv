@@ -22,6 +22,7 @@
 
 <style>
   .headline{
+    z-index: 5;
     display: flex;
     justify-content: center;
     align-items: center;
