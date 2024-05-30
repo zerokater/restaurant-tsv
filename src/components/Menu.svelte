@@ -5,7 +5,7 @@
 
             flex-wrap: wrap;
             justify-content: space-around;
-            margin: 10px 0;
+            margin: 11px 0;
         }
         .menu-section {
           
